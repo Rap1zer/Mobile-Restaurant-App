@@ -1,0 +1,42 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+        <script defer src="data.js" type="module"></script>
+	    <script defer src="index.js" type="module"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <h1>Jimmy's Diner</h1>
+            <h2>The best burgers and pizzas in town</h2>
+        </header>
+        <div class="menu" id="menu"></div>
+        <div class="checkout">
+            <div id="checkout">
+                <h3 class="checkout-heading">Your order</h3>
+                <div id="checkout-list">
+                    <h3 class="checkout-placeholder-text" id="checkout-placeholder-text">nothing ordered yet</h3> 
+                </div>
+                <hr>
+                <div class="checkout-price-container">
+                    <h3>Total price:</h3>
+                    <h3 id="total-price">$0</h3>
+                </div>
+                <button class="pay-btn" id="complete-order-btn">Complete order</button>
+            </div>
+            <div class="order-thank-you" id="order-thank-you">
+                <h1 class="thank-you-msg">Thanks, James! Your order is on its way!</h1>
+            </div>
+        </div>
+        <div class="card-details-modal" id="card-details-modal">
+            <h1 class="card-details-heading">Enter card details</h1>
+            <input type="text" class="card-details-input" placeholder="Enter your name">
+            <input type="text" class="card-details-input" placeholder="Enter card number">
+            <input type="text" class="card-details-input" placeholder="Enter CVV">
+            <button class="pay-btn" id="pay-btn">Pay</button>
+        </div>
+    </body>
+</html>
+

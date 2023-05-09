@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Smythe';
+    margin: 0;
+} 
+
+header {
+    background-image: url("./images/banner.jpg");
+    background-position: right;
+    background-size: cover;
+    height: 180px;
+    padding: 30px 7vw;
+    color: white;
+}
+
+.menu-item {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-icon {
+    font-size: 55px;
+    margin-right: 31px;
+}
+
+.add-menu-item-btn {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 1.5px solid #DEDEDE;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.menu hr {
+    border: 1px solid #D2D2D2;
+    margin: 0 30px;
+}
+
+.checkout {
+    margin: 20px;
+}
+
+.checkout-heading {
+    text-align: center;
+    margin: 50px;
+}
+
+.checkout-placeholder-text {
+    font-size: 0.8rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: grey;
+}
+
+.checkout hr {
+    border: 2px solid #393333;
+}
+
+.checkout-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkout-item-container {
+    display: flex;
+    align-items: center;
+}
+.checkout-item-remove {
+    font-family: 'Verdana';
+    font-size: 0.75rem;
+    color: #BBBBBB;
+    margin-left: 13px;
+}
+
+.checkout-price-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pay-btn {
+    width: 100%;
+    margin: 20px 0;
+    padding: 18px;
+    font-family: 'Verdana';
+    font-weight: 700;
+    color: white;
+    background: #16DB99;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+    border: 0;
+}
+
+.card-details-modal {
+    min-width: 350px;
+    max-width: 500px;
+    padding: 20px;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 100px #393333;
+    background-color: white;
+    display: none;
+}
+
+.card-details-heading {
+    font-size: 24px;
+}
+
+.card-details-input {
+    width: 100%;
+    margin: 10px 0;
+    padding: 13px;
+}
+
+.order-thank-you {
+    padding: 30px;
+    border-radius: 3px;
+    background-color: #ECFDF5; 
+    margin-top: 30px;
+    display: none;
+}
+
+.thank-you-msg {
+    color: #065F46;
+    font-size: 32px;
+}
